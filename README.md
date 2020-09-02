@@ -3,7 +3,7 @@ A template project showing off full-stack connectivity, with containerization vi
 
 ## Installation Instructions
 1. Pull repo
-2. Set `JAVA_HOME` path
+2. Download Java JDK, set `JAVA_HOME` path
 3. Download and install Node.js & npm.
 4. `npm install`
 
