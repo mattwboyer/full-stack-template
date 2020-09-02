@@ -7,8 +7,7 @@ A template project showing off full-stack connectivity, with containerization vi
 3. Download and install Node.js & npm.
 4. `npm install`
 
-### Local Environment Setup
-
+## Local Environment Setup
 ### Database
 1. `cd ./database`
 2. `docker run --name full-stack-template-postgres -e POSTGRES_PASSWORD=password -v ${PWD}\scripts:/docker-entrypoint-initdb.d -p 5432:5432 -d postgres:latest`
