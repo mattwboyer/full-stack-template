@@ -10,8 +10,8 @@ A template project showing off full-stack connectivity, with containerization vi
 ## Local Environment Setup
 ### Database
 1. `cd ./database`
-2a. `docker run --name full-stack-template-postgres -e POSTGRES_PASSWORD=password -v ${PWD}\scripts:/docker-entrypoint-initdb.d -p 5432:5432 -d postgres:latest`
-2b. `docker start full-stack-template-postgres`
+2. First time: `docker run --name full-stack-template-postgres -e POSTGRES_PASSWORD=password -v ${PWD}\scripts:/docker-entrypoint-initdb.d -p 5432:5432 -d postgres:latest`
+3. After First: `docker start full-stack-template-postgres`
 
 ### Backend
 1. `cd ./backend`
