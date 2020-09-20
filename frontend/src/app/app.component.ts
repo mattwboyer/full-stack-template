@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import {UsersService} from './users.service';
 
 @Component({  
-  selector: 'app-root',
+  selector: 'app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
